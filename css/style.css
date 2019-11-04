@@ -1,0 +1,335 @@
+/* Global CSS Start */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Global CSS End */
+
+/* Header Section CSS Start */
+.header-section{
+	width: 100%;
+	background:#ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fa{
+	font-size: 17px;
+    color: #b5bcc3;
+}
+.fa:hover{
+	font-size: 17px;
+    color: #6b7c93;
+}
+.top-icon-left{
+	padding: 10px 0px 0px;
+}
+.top-icon-left ul{
+	padding: 0px;
+    margin: 0px;
+}
+.top-icon-left ul li{
+	list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.top-icon-right{
+	float: right;
+	padding: 5px 0px;
+}
+.top-icon-right span{
+	padding: 10px;
+}
+.top-icon-right .number{
+	color: #b5bcc3;
+}
+.navbar{
+	padding: 0px;
+}
+.navbar-brand{
+	padding: 7px 0px;
+}
+.collapse ul li{
+	padding-left: 25px;
+    text-transform: uppercase;
+}
+.collapse ul li:hover{
+	border-top: 3px solid #4caf50;
+}
+.collapse ul li a{
+	color: #45505e;
+	text-align: center;
+}
+
+/* Header Section CSS End */
+
+/* Banner section CSS Start*/
+.banner-section{
+	width: 100%;
+	background: url(../images/banner1.png) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-inner-content{
+	padding: 210px 0px 180px;
+}
+.banner-inner-content h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #303842;
+}
+.banner-inner-content p{
+	font-size: 16px;
+	color: #78879c;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.btn{
+	text-align: center;
+}
+.btn-primary{
+   	color: #4caf50;
+    background-color: transparent;
+    border-color: #f2f2f2;
+    box-shadow: 0px 2px 1px 5px #f2f2f2;
+    border-radius: 17px;
+    padding: 7px 26px;
+    border: none;
+}
+.btn-primary:hover{
+	background-color: #6dc4f2;
+}
+/* Banner-section CSS End */
+
+/* Customar Section CSS Start */
+.customar-section{
+	width: 100%;
+    background-color: #ffffff;
+    padding: 60px 0px;
+}
+.customar-content h2{
+	color: #303842;
+    padding-top: 40px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.customar-content p{
+	font-size: 16px;
+	color: #78879c;
+}
+.customar-images{
+	padding-top: 30px;
+}
+.customar-images img{
+	width: 100%;
+}
+/* Custormar Section CSS End */
+
+/* Service Section CSS Start */
+.service-section{
+	width: 100%;
+	background-image: url(../images/whomanback.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 0px;
+}
+.service-content{
+	padding-bottom: 20px;
+}
+.service-content h3{
+	color: #303842;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.service-content p{
+	font-size: 16px;
+	color: #78879c;
+}
+.content{
+	padding-bottom: 30px;
+}
+.content h4{
+	color: #303842;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.content p{
+	font-size: 16px;
+	color: #78879c;
+}
+.margin-left{
+	margin-left: 80px;
+}
+/* Service Section CSS End */
+
+/* Carear Section CSS Start */
+.carear-section{
+	width: 100%;
+	background-image: url(../images/manback.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0px;
+}
+.carear-content{
+	padding: 85px 0px 0px;
+}
+.carear-content h2{
+	color: #303842;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.carear-content p{
+	font-size: 16px;
+	color: #78879c;
+}
+.carear-first{
+	padding: 40px 0px
+}
+.carear-first h2{
+	color: #303842;
+	text-transform: uppercase;
+}
+.carear-number{
+	color: #75e1cf;
+    font-size: 50px;
+    font-weight: 300;
+}
+.carear-number .orange{
+	color: #fed962;
+}
+.carear-number .red{
+	color: #f55b50
+}
+/* Carear Section CSS End */
+/* Mind-section CSS Start */
+.mind-section{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 40px 0px;
+}
+.mind-content{
+	text-align: center;
+}
+.mind-content h2{
+	color: #303842;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.mind-content p{
+	font-size: 16px;
+	color: #78879c;
+}
+/* Mind-section CSS End */
+
+/* Contact Section CSS Start */
+.contact-section{
+	width: 100%;
+	background-image: url(../images/back.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 40px 0px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.contact-form{
+    padding: 29px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.label{
+	padding-bottom: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.text-area textarea{
+	height: 140px;
+}
+.button{
+	padding-top: 20px;
+}
+/* Contact Section CSS End */
+
+/* Footer Section CSS Start */
+.footer-section{
+	width: 100%;
+	background-color: #fafafa;
+	padding: 40px 0px;
+}
+.footer-logo{
+	padding-bottom: 30px;
+}
+.footer-content p{
+	font-size: 16px;
+	color: #78879c;
+	padding-bottom: 20px;
+}
+.catagory{
+	margin-top: 15px;
+}
+.catagory ul li{
+	list-style: none;
+    padding-bottom: 10px;
+}
+.catagory ul li a{
+	color: #78879c;
+}
+.catagory ul{
+	margin: 0px;
+	padding: 0px;
+}
+.catagory h3{
+	font-size: 20px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.Community{
+	margin-top: 15px;
+}
+.Community ul li{
+	list-style: none;
+    padding-bottom: 10px;
+}
+.Community ul li a{
+	color: #78879c;
+}
+.Community ul{
+	margin: 0px;
+	padding: 0px;
+}
+.Community h3{
+	font-size: 20px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.follow{
+	margin-top: 15px;
+}
+.follow h3{
+	font-size: 20px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.footer-bottom{
+	margin-left: 15px;
+}
+.footer-bottom p{
+	font-size: 16px;
+	color: #78879c;
+}
+/* Footer Section CSS End */
